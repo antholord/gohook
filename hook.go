@@ -232,7 +232,7 @@ func Start() chan Event {
 			}
 
 			C.pollEv()
-			time.Sleep(time.Millisecond * 10)
+			time.Sleep(time.Millisecond * 1)
 			//todo: find smallest time that does not destroy the cpu utilization
 		}
 	}()
